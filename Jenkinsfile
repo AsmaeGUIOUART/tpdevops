@@ -3,7 +3,7 @@ pipeline {
     registry = "asmaeguiouart/guiouart_tp5"
     registryCredential = 'Asmae2'
     dockerImage = ''
-    gitBranch = 'main'
+    gitBranch = 'master'
   }
   agent any
   stages {
